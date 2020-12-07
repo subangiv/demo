@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["@babel/env", { "modules": "commonjs" }],
+        ["minify"]
+    ],
+    "plugins": [
+        ["add-module-exports", { "addDefaultProperty": true }]
+    ]
+}
