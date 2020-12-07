@@ -1,21 +1,15 @@
 
 
 # What is this?
-A template for Babel bundling
-
-nmp how to guide: 
-	https://medium.com/swlh/how-to-publish-an-es6-module-to-npm-43dda8aabbf
-
-babel module export: 
-	https://www.npmjs.com/package/babel-plugin-add-module-exports
+demo
 
 # Installation
 
-npm install @subangi/babel-npm-bundler 
+npm install @subangi/demo 
 
 Then...
 
-const add = require("@subangi/babel-build-bundler/babel-build-bundler");
+const add = require("@subangi/demo");
 
 console.log(add(1,2));
 
